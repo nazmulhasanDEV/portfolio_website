@@ -1,0 +1,572 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_004{font-family:Times,serif;font-size:40.0px;color:rgb(158,167,27);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Times,serif;font-size:40.0px;color:rgb(158,167,27);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_005{font-family:Arial,serif;font-size:24.1px;color:rgb(187,191,97);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_005{font-family:Arial,serif;font-size:24.1px;color:rgb(187,191,97);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_006{font-family:Arial,serif;font-size:20.1px;color:rgb(114,114,114);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Arial,serif;font-size:20.1px;color:rgb(114,114,114);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Arial,serif;font-size:20.1px;color:rgb(128,128,128);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Arial,serif;font-size:20.1px;color:rgb(128,128,128);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_009{font-family:Arial,serif;font-size:17.1px;color:rgb(171,190,29);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_009{font-family:Arial,serif;font-size:17.1px;color:rgb(171,190,29);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Arial,serif;font-size:17.1px;color:rgb(128,128,128);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_008{font-family:Arial,serif;font-size:17.1px;color:rgb(128,128,128);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_010{font-family:Arial,serif;font-size:17.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_010{font-family:Arial,serif;font-size:17.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_002{font-family:Arial,serif;font-size:13.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Arial,serif;font-size:13.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_011{font-family:Arial,serif;font-size:28.1px;color:rgb(171,190,29);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_011{font-family:Arial,serif;font-size:28.1px;color:rgb(171,190,29);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_012{font-family:Arial,serif;font-size:17.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_012{font-family:Arial,serif;font-size:17.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_015{font-family:Times,serif;font-size:23.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_015{font-family:Times,serif;font-size:23.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_017{font-family:Arial,serif;font-size:20.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_017{font-family:Arial,serif;font-size:20.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_018{font-family:Arial,serif;font-size:25.1px;color:rgb(137,137,137);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_018{font-family:Arial,serif;font-size:25.1px;color:rgb(137,137,137);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_019{font-family:Arial,serif;font-size:70.0px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_019{font-family:Arial,serif;font-size:70.0px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_020{font-family:Arial,serif;font-size:27.1px;color:rgb(92,91,91);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_020{font-family:Arial,serif;font-size:27.1px;color:rgb(92,91,91);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_021{font-family:Arial,serif;font-size:27.1px;color:rgb(171,190,29);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_021{font-family:Arial,serif;font-size:27.1px;color:rgb(171,190,29);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_022{font-family:Arial,serif;font-size:37.0px;color:rgb(171,190,29);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_022{font-family:Arial,serif;font-size:37.0px;color:rgb(171,190,29);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_023{font-family:Arial,serif;font-size:27.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_023{font-family:Arial,serif;font-size:27.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_024{font-family:Arial,serif;font-size:60.0px;color:rgb(171,190,29);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_024{font-family:Arial,serif;font-size:60.0px;color:rgb(171,190,29);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_025{font-family:Arial,serif;font-size:19.5px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_025{font-family:Arial,serif;font-size:19.5px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_026{font-family:Arial,serif;font-size:18.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_026{font-family:Arial,serif;font-size:18.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_027{font-family:Arial,serif;font-size:16.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_027{font-family:Arial,serif;font-size:16.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_028{font-family:Arial,serif;font-size:21.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_028{font-family:Arial,serif;font-size:21.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_030{font-family:Arial,serif;font-size:26.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_030{font-family:Arial,serif;font-size:26.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_032{font-family:Arial,serif;font-size:12.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_032{font-family:Arial,serif;font-size:12.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_033{font-family:Arial,serif;font-size:18.1px;color:rgb(171,190,29);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_033{font-family:Arial,serif;font-size:18.1px;color:rgb(171,190,29);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_034{font-family:Arial,serif;font-size:12.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_034{font-family:Arial,serif;font-size:12.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_035{font-family:Arial,serif;font-size:13.1px;color:rgb(158,167,27);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_035{font-family:Arial,serif;font-size:13.1px;color:rgb(158,167,27);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_036{font-family:Arial,serif;font-size:13.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_036{font-family:Arial,serif;font-size:13.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_037{font-family:Arial,serif;font-size:14.0px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_037{font-family:Arial,serif;font-size:14.0px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_038{font-family:Arial,serif;font-size:12.1px;color:rgb(43,42,41);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_038{font-family:Arial,serif;font-size:12.1px;color:rgb(43,42,41);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_039{font-family:Arial,serif;font-size:7.0px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_039{font-family:Arial,serif;font-size:7.0px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_041{font-family:Arial,serif;font-size:19.1px;color:rgb(171,190,29);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_041{font-family:Arial,serif;font-size:19.1px;color:rgb(171,190,29);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_042{font-family:Arial,serif;font-size:16.1px;color:rgb(92,91,91);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_042{font-family:Arial,serif;font-size:16.1px;color:rgb(92,91,91);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_043{font-family:Arial,serif;font-size:16.1px;color:rgb(160,168,32);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_043{font-family:Arial,serif;font-size:16.1px;color:rgb(160,168,32);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_044{font-family:Arial,serif;font-size:18.1px;color:rgb(92,91,91);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_044{font-family:Arial,serif;font-size:18.1px;color:rgb(92,91,91);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_045{font-family:Arial,serif;font-size:18.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_045{font-family:Arial,serif;font-size:18.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_047{font-family:Arial,serif;font-size:18.1px;color:rgb(158,167,27);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_047{font-family:Arial,serif;font-size:18.1px;color:rgb(158,167,27);font-weight:normal;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-432px;top:0px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background01.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:188.26px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:413.32px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:626.48px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:331.56px;top:347.93px" class="cls_011"><span class="cls_011">Experience In:</span></div>
+<div style="position:absolute;left:331.56px;top:396.40px" class="cls_012"><span class="cls_012">Real Estate (Commercial /</span></div>
+<div style="position:absolute;left:331.56px;top:418.40px" class="cls_012"><span class="cls_012">Residential / Development /</span></div>
+<div style="position:absolute;left:331.56px;top:440.40px" class="cls_012"><span class="cls_012">Realtors)</span></div>
+<div style="position:absolute;left:408.36px;top:440.40px" class="cls_009"><span class="cls_009">•  </span><span class="cls_012">Travel</span><span class="cls_009"> </span><span class="cls_012"> </span><span class="cls_009">•  </span><span class="cls_012">Design</span><span class="cls_009"> </span><span class="cls_012"> </span><span class="cls_009">•</span></div>
+<div style="position:absolute;left:331.56px;top:461.48px" class="cls_012"><span class="cls_012">Healthcare  </span><span class="cls_009">•  </span><span class="cls_012">Energy</span></div>
+<div style="position:absolute;left:51.24px;top:572.20px" class="cls_015"><span class="cls_015">Unsure how to tell</span></div>
+<div style="position:absolute;left:51.24px;top:604.20px" class="cls_015"><span class="cls_015">potential customers</span></div>
+<div style="position:absolute;left:51.24px;top:636.20px" class="cls_015"><span class="cls_015">about your business?</span></div>
+<div style="position:absolute;left:654.12px;top:670.99px" class="cls_017"><span class="cls_017">Want existing</span></div>
+<div style="position:absolute;left:654.12px;top:696.99px" class="cls_017"><span class="cls_017">materials</span></div>
+<div style="position:absolute;left:654.12px;top:722.99px" class="cls_017"><span class="cls_017">rewritten,</span></div>
+<div style="position:absolute;left:319.60px;top:722.96px" class="cls_018"><span class="cls_018">Need an article written</span></div>
+<div style="position:absolute;left:654.12px;top:748.99px" class="cls_017"><span class="cls_017">updated or</span></div>
+<div style="position:absolute;left:319.60px;top:750.96px" class="cls_018"><span class="cls_018">about travel, design,</span></div>
+<div style="position:absolute;left:654.12px;top:774.99px" class="cls_017"><span class="cls_017">optimized?</span></div>
+<div style="position:absolute;left:319.60px;top:778.96px" class="cls_018"><span class="cls_018">business, real estate?</span></div>
+<div style="position:absolute;left:213.01px;top:890.36px" class="cls_019"><span class="cls_019">LET ME HELP.</span></div>
+<div style="position:absolute;left:169.44px;top:1025.59px" class="cls_020"><span class="cls_020">I’ve got</span><span class="cls_021"> </span><span class="cls_022">25+</span><span class="cls_023"> </span><span class="cls_020">years of experience in marketing,</span></div>
+<div style="position:absolute;left:149.24px;top:1073.58px" class="cls_020"><span class="cls_020">advertising, copywriting and content management.</span></div>
+<div style="position:absolute;left:292.86px;top:1196.97px" class="cls_024"><span class="cls_024">SERVICES</span></div>
+<div style="position:absolute;left:157.41px;top:1470.65px" class="cls_025"><span class="cls_025">MARKETING</span></div>
+<div style="position:absolute;left:611.00px;top:1470.65px" class="cls_025"><span class="cls_025">FEATURE</span></div>
+<div style="position:absolute;left:125.76px;top:1494.01px" class="cls_025"><span class="cls_025">COMMUNICATIONS</span></div>
+<div style="position:absolute;left:608.49px;top:1494.01px" class="cls_025"><span class="cls_025">ARTICLES</span></div>
+<div style="position:absolute;left:110.41px;top:1545.53px" class="cls_026"><span class="cls_026">I’ve worked with local and</span></div>
+<div style="position:absolute;left:569.84px;top:1545.53px" class="cls_026"><span class="cls_026">I’ve written lively and</span></div>
+<div style="position:absolute;left:88.40px;top:1571.52px" class="cls_026"><span class="cls_026">national businesses - including</span></div>
+<div style="position:absolute;left:544.01px;top:1571.52px" class="cls_026"><span class="cls_026">well-researched  articles for</span></div>
+<div style="position:absolute;left:76.38px;top:1597.51px" class="cls_026"><span class="cls_026">B2B, B2C, ad agencies, publishers</span></div>
+<div style="position:absolute;left:552.20px;top:1597.51px" class="cls_026"><span class="cls_026">print & on-line, regional &</span></div>
+<div style="position:absolute;left:74.79px;top:1623.50px" class="cls_026"><span class="cls_026">and corporations -- who appreciate</span></div>
+<div style="position:absolute;left:546.72px;top:1623.50px" class="cls_026"><span class="cls_026">national.  I can write from a</span></div>
+<div style="position:absolute;left:63.34px;top:1649.49px" class="cls_026"><span class="cls_026">my ability to provide clear, compelling</span></div>
+<div style="position:absolute;left:553.46px;top:1649.49px" class="cls_026"><span class="cls_026">first- or third-person POV,</span></div>
+<div style="position:absolute;left:82.71px;top:1675.49px" class="cls_026"><span class="cls_026">content  that helps turn potential</span></div>
+<div style="position:absolute;left:564.80px;top:1675.49px" class="cls_026"><span class="cls_026">or ghostwrite an article</span></div>
+<div style="position:absolute;left:93.31px;top:1698.53px" class="cls_026"><span class="cls_026">customers into</span><span class="cls_027"> </span><span class="cls_028">loyal clients.</span></div>
+<div style="position:absolute;left:588.09px;top:1701.48px" class="cls_026"><span class="cls_026">for an executive.</span></div>
+<div style="position:absolute;left:177.18px;top:1752.25px" class="cls_026"><span class="cls_026">Websites</span></div>
+<div style="position:absolute;left:607.84px;top:1752.29px" class="cls_026"><span class="cls_026">Real Estate</span></div>
+<div style="position:absolute;left:172.03px;top:1782.26px" class="cls_026"><span class="cls_026">Brochures</span></div>
+<div style="position:absolute;left:629.17px;top:1785.14px" class="cls_026"><span class="cls_026">Travel</span></div>
+<div style="position:absolute;left:169.71px;top:1812.27px" class="cls_026"><span class="cls_026">Direct Mail</span></div>
+<div style="position:absolute;left:603.33px;top:1817.99px" class="cls_026"><span class="cls_026">Architecture</span></div>
+<div style="position:absolute;left:148.12px;top:1842.27px" class="cls_026"><span class="cls_026">Sales Promotion</span></div>
+<div style="position:absolute;left:625.61px;top:1850.84px" class="cls_026"><span class="cls_026">Design</span></div>
+<div style="position:absolute;left:158.15px;top:1872.28px" class="cls_026"><span class="cls_026">Presentations</span></div>
+<div style="position:absolute;left:608.98px;top:1883.69px" class="cls_026"><span class="cls_026">Healthcare</span></div>
+<div style="position:absolute;left:171.43px;top:1902.28px" class="cls_026"><span class="cls_026">Blog Posts</span></div>
+<div style="position:absolute;left:625.39px;top:1916.54px" class="cls_026"><span class="cls_026">Energy</span></div>
+<div style="position:absolute;left:172.33px;top:1932.29px" class="cls_026"><span class="cls_026">Broadcast</span></div>
+<div style="position:absolute;left:190.05px;top:1962.30px" class="cls_026"><span class="cls_026">Video</span></div>
+<div style="position:absolute;left:353.94px;top:2080.51px" class="cls_030"><span class="cls_030">Let’s discuss</span></div>
+<div style="position:absolute;left:358.23px;top:2113.50px" class="cls_030"><span class="cls_030">what you’re</span></div>
+<div style="position:absolute;left:338.84px;top:2146.50px" class="cls_030"><span class="cls_030">looking for and</span></div>
+<div style="position:absolute;left:348.35px;top:2179.49px" class="cls_030"><span class="cls_030">I’m confident</span></div>
+<div style="position:absolute;left:352.41px;top:2212.48px" class="cls_030"><span class="cls_030">I can deliver.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:2890px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background02.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.43px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:421.15px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:634.31px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:72.90px;top:354.36px" class="cls_024"><span class="cls_024">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:146.15px;top:1425.44px" class="cls_032"><span class="cls_032">ADVANCED ORTHO</span></div>
+<div style="position:absolute;left:386.76px;top:1425.44px" class="cls_032"><span class="cls_032">MOSQUITO TEK</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:5780px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background03.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.98px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:406.04px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:633.76px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:97.23px;top:354.36px" class="cls_024"><span class="cls_024">FEATURES PORTFOLIO</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:8670px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background04.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.43px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:421.15px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:634.31px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:72.90px;top:354.36px" class="cls_024"><span class="cls_024">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:112.32px;top:1070.59px" class="cls_033"><span class="cls_033">ENERGY CENTER THREE</span></div>
+<div style="position:absolute;left:112.32px;top:1097.59px" class="cls_034"><span class="cls_034">Houston</span></div>
+<div style="position:absolute;left:112.32px;top:1145.59px" class="cls_035"><span class="cls_035">•</span><span class="cls_036"> In Houston’s world-renowned Energy Corridor</span></div>
+<div style="position:absolute;left:112.32px;top:1173.59px" class="cls_035"><span class="cls_035">•</span><span class="cls_036"> Continuing on the success of Energy Centers One & Two, EC3 was the first of three new properties to be</span></div>
+<div style="position:absolute;left:126.32px;top:1195.59px" class="cls_036"><span class="cls_036">constructed around a landscaped campus</span></div>
+<div style="position:absolute;left:112.32px;top:1223.59px" class="cls_035"><span class="cls_035">• </span><span class="cls_036">I created the headline “Connect. Innovate. Advance.” Those words powered the entire campaign.</span></div>
+<div style="position:absolute;left:112.32px;top:1251.59px" class="cls_035"><span class="cls_035">• </span><span class="cls_036">After EC3 was 100% leased 6 months after marketing began (along with half of EC4), the</span></div>
+<div style="position:absolute;left:126.32px;top:1279.59px" class="cls_036"><span class="cls_036">same campaign was used for the remainder of EC4 & EC5.</span></div>
+<div style="position:absolute;left:363.09px;top:1357.47px" class="cls_037"><span class="cls_037">Click here to view PDF</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:11560px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background05.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.43px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:421.15px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:634.31px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:72.90px;top:354.36px" class="cls_024"><span class="cls_024">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:112.32px;top:1521.79px" class="cls_033"><span class="cls_033">ESPERANTE</span></div>
+<div style="position:absolute;left:112.32px;top:1548.79px" class="cls_034"><span class="cls_034">Houston</span></div>
+<div style="position:absolute;left:363.09px;top:1738.35px" class="cls_037"><span class="cls_037">Click here to view PDF</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:14450px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background06.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.43px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:421.15px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:634.31px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:72.90px;top:354.36px" class="cls_024"><span class="cls_024">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:112.32px;top:1070.55px" class="cls_033"><span class="cls_033">NAIPENDA SAFARIS</span></div>
+<div style="position:absolute;left:112.32px;top:1097.55px" class="cls_034"><span class="cls_034">Kerville/Arusha</span></div>
+<div style="position:absolute;left:112.32px;top:1145.55px" class="cls_035"><span class="cls_035">• </span><span class="cls_036">Comprehensive outfitter for photo safaris in Tanzania</span></div>
+<div style="position:absolute;left:112.32px;top:1173.55px" class="cls_035"><span class="cls_035">• </span><span class="cls_036">Focus on ease, experience and service to comfort first-time travelers</span></div>
+<div style="position:absolute;left:112.32px;top:1201.55px" class="cls_035"><span class="cls_035">• </span><span class="cls_036">Wrote brochure and a guide to climbing Mount Kilimanjaro</span></div>
+<div style="position:absolute;left:363.09px;top:1291.23px" class="cls_037"><span class="cls_037">Click here to view PDF</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:17340px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background07.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.43px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:421.15px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:634.31px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:72.90px;top:354.36px" class="cls_024"><span class="cls_024">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:112.32px;top:1069.55px" class="cls_033"><span class="cls_033">Hurricane Season 2018: What to do before, during and after.</span></div>
+<div style="position:absolute;left:112.32px;top:1096.55px" class="cls_034"><span class="cls_034">Houston, Texas</span></div>
+<div style="position:absolute;left:112.32px;top:1138.55px" class="cls_034"><span class="cls_034">While the aftermath of hurricane Harvey may seem barely behind most Texans, another hurricane season began June 1</span></div>
+<div style="position:absolute;left:112.32px;top:1159.55px" class="cls_034"><span class="cls_034">and will run through November. And the good news? According to the </span><span class="cls_038">Texas Hurricane Handbook, </span><span class="cls_034">most major storms</span></div>
+<div style="position:absolute;left:112.32px;top:1180.55px" class="cls_034"><span class="cls_034">hit Texas in August and Sptember, which means youstill have several weeks to get adequately prepared.</span></div>
+<div style="position:absolute;left:363.09px;top:1245.15px" class="cls_037"><span class="cls_037">Click here to view PDF</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:20230px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background08.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.43px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:421.15px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:634.31px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:72.90px;top:354.36px" class="cls_024"><span class="cls_024">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:112.32px;top:1070.55px" class="cls_033"><span class="cls_033">180 WALNUT@THE BANKS</span></div>
+<div style="position:absolute;left:112.32px;top:1097.55px" class="cls_034"><span class="cls_034">Cincinatti, Ohio</span></div>
+<div style="position:absolute;left:112.32px;top:1145.55px" class="cls_035"><span class="cls_035">• </span><span class="cls_034">New office building in a new mixed-use development, The Banks</span></div>
+<div style="position:absolute;left:112.32px;top:1173.55px" class="cls_035"><span class="cls_035">• </span><span class="cls_034">Needed to be perceived as CBD location, but highlight the property’s “live, work, play” aspects</span></div>
+<div style="position:absolute;left:126.32px;top:1195.55px" class="cls_034"><span class="cls_034">away from the crowds and noise of the CBD</span></div>
+<div style="position:absolute;left:112.32px;top:1222.55px" class="cls_035"><span class="cls_035">• </span><span class="cls_034">Created concept, wrote brochure and website</span></div>
+<div style="position:absolute;left:363.09px;top:1294.11px" class="cls_037"><span class="cls_037">Click here to view PDF</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:23120px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background09.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.43px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:421.15px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:634.31px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:72.90px;top:354.36px" class="cls_024"><span class="cls_024">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:112.32px;top:1069.55px" class="cls_033"><span class="cls_033">TEXAS PAIN INSTITUTE</span></div>
+<div style="position:absolute;left:112.32px;top:1096.55px" class="cls_034"><span class="cls_034">Austin, Texas</span></div>
+<div style="position:absolute;left:112.32px;top:1144.55px" class="cls_035"><span class="cls_035">• </span><span class="cls_034">Clinic specializing in relief of chronic pain</span></div>
+<div style="position:absolute;left:112.32px;top:1172.55px" class="cls_035"><span class="cls_035">• </span><span class="cls_034">Speak to those who have been in a hospital environment, or those who had not received relief</span></div>
+<div style="position:absolute;left:126.32px;top:1190.55px" class="cls_034"><span class="cls_034">from more traditional treatments</span></div>
+<div style="position:absolute;left:112.32px;top:1217.55px" class="cls_035"><span class="cls_035">• </span><span class="cls_034">Content needed to impart a caring, patient-focused environment</span></div>
+<div style="position:absolute;left:363.09px;top:1283.66px" class="cls_037"><span class="cls_037">Click here to view PDF</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:26010px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background10.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.43px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:421.15px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:634.31px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:72.90px;top:354.36px" class="cls_024"><span class="cls_024">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:112.32px;top:1070.55px" class="cls_033"><span class="cls_033">WHAT’S IMPROVED THANKS TO TEXAS’ OPEN ELECTRICITY MARKET?</span></div>
+<div style="position:absolute;left:112.32px;top:1097.55px" class="cls_034"><span class="cls_034">Austin, Texas</span></div>
+<div style="position:absolute;left:112.32px;top:1139.55px" class="cls_034"><span class="cls_034">Imagine 2o years ago in Texas, a young couple moves into their new home. One of the first things they need</span></div>
+<div style="position:absolute;left:112.32px;top:1160.55px" class="cls_034"><span class="cls_034">is an electricty provider. Instead of researching their options and finding the best package for their lifestyle,</span></div>
+<div style="position:absolute;left:112.32px;top:1181.55px" class="cls_034"><span class="cls_034">thet realize they only have ONE choice­- a monopoly electric utility that provides electricity to everyone the</span></div>
+<div style="position:absolute;left:112.32px;top:1202.55px" class="cls_034"><span class="cls_034">same way at the same cost.</span></div>
+<div style="position:absolute;left:363.09px;top:1272.51px" class="cls_037"><span class="cls_037">Click here to view PDF</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:28900px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background11.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.43px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:421.15px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:634.31px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:72.90px;top:354.36px" class="cls_024"><span class="cls_024">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:112.32px;top:1070.55px" class="cls_033"><span class="cls_033">5 TIPS FOR UNDERSTANDING YOUR ELECTRIC BILL</span></div>
+<div style="position:absolute;left:112.32px;top:1097.55px" class="cls_034"><span class="cls_034">Austin, Texas</span></div>
+<div style="position:absolute;left:112.32px;top:1139.55px" class="cls_034"><span class="cls_034">For years, I was one of those “get the electric bill and just pay it” people, not bothering to dig into the details.</span></div>
+<div style="position:absolute;left:112.32px;top:1160.55px" class="cls_034"><span class="cls_034">But a new move into a new residence and curiosity how my energy costs might change prompted me to do</span></div>
+<div style="position:absolute;left:112.32px;top:1181.55px" class="cls_034"><span class="cls_034">some digging. What I discovered would save me thousands over the next several years.</span></div>
+<div style="position:absolute;left:363.09px;top:1259.95px" class="cls_037"><span class="cls_037">Click here to view PDF</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:31790px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background12.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.43px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:421.15px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:634.31px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:72.90px;top:354.36px" class="cls_024"><span class="cls_024">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:112.32px;top:1538.51px" class="cls_033"><span class="cls_033">WORLD MILLWORK ALLIANCE</span></div>
+<div style="position:absolute;left:112.32px;top:1565.51px" class="cls_034"><span class="cls_034">Houston, Texas</span></div>
+<div style="position:absolute;left:363.09px;top:1632.51px" class="cls_037"><span class="cls_037">Click here to view PDF</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:34680px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background13.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.43px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:421.15px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:634.31px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:72.90px;top:354.36px" class="cls_024"><span class="cls_024">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:162.32px;top:725.68px" class="cls_032"><span class="cls_032">RADIO SPOT 1</span></div>
+<div style="position:absolute;left:393.08px;top:725.68px" class="cls_032"><span class="cls_032">RADIO SPOT 2</span></div>
+<div style="position:absolute;left:623.84px;top:725.68px" class="cls_032"><span class="cls_032">RADIO SPOT 3</span></div>
+<div style="position:absolute;left:96.48px;top:928.31px" class="cls_033"><span class="cls_033">ADVANCED ORTHO</span></div>
+<div style="position:absolute;left:96.48px;top:955.31px" class="cls_034"><span class="cls_034">Austin, Texas</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:37570px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background14.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.43px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:421.15px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:634.31px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:72.90px;top:354.36px" class="cls_024"><span class="cls_024">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:162.32px;top:725.68px" class="cls_032"><span class="cls_032">RADIO SPOT 1</span></div>
+<div style="position:absolute;left:393.08px;top:725.68px" class="cls_032"><span class="cls_032">RADIO SPOT 2</span></div>
+<div style="position:absolute;left:96.48px;top:928.31px" class="cls_033"><span class="cls_033">MosquitoTek</span></div>
+<div style="position:absolute;left:96.48px;top:955.31px" class="cls_034"><span class="cls_034">Austin, Texas</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:40460px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background15.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.98px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:406.04px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:633.76px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:97.23px;top:354.36px" class="cls_024"><span class="cls_024">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:112.32px;top:1057.55px" class="cls_033"><span class="cls_033">HUMAN LIBRARY</span></div>
+<div style="position:absolute;left:112.32px;top:1084.55px" class="cls_034"><span class="cls_034">Austin, Texas</span></div>
+<div style="position:absolute;left:112.32px;top:1126.55px" class="cls_034"><span class="cls_034">Curriosity about other religions wasn’t exctly encouraged during my Catholic upbrfinging. Through the years, I’ve</span></div>
+<div style="position:absolute;left:112.32px;top:1147.55px" class="cls_034"><span class="cls_034">studied other faiths-Islam, Judaism, Buddhism. But Baha’i? No Clue.</span></div>
+<div style="position:absolute;left:363.09px;top:1237.95px" class="cls_037"><span class="cls_037">Click here to view PDF</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:43350px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background16.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.98px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:406.04px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:633.76px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:97.23px;top:354.36px" class="cls_024"><span class="cls_024">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:112.32px;top:1563.79px" class="cls_033"><span class="cls_033">LASTING LEGACY OF GIVING</span></div>
+<div style="position:absolute;left:112.32px;top:1590.79px" class="cls_034"><span class="cls_034">Houston, Texas</span></div>
+<div style="position:absolute;left:112.32px;top:1632.79px" class="cls_034"><span class="cls_034">Each year the Super Bowl serves as a catalyst to support the local host community in a significant and lasting way.</span></div>
+<div style="position:absolute;left:112.32px;top:1653.79px" class="cls_034"><span class="cls_034">The partnership between the National Football League Foundation, Houston Super Bowl Host Committee and the</span></div>
+<div style="position:absolute;left:112.32px;top:1674.79px" class="cls_034"><span class="cls_034">Houston community will benefit the entire region long after Super Bowl LI is complete.</span></div>
+<div style="position:absolute;left:363.09px;top:1747.35px" class="cls_037"><span class="cls_037">Click here to view PDF</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:46240px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background17.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.98px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:406.04px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:633.76px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:97.23px;top:354.36px" class="cls_024"><span class="cls_024">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:112.32px;top:1552.71px" class="cls_033"><span class="cls_033">WOMEN’S WELLNESS</span></div>
+<div style="position:absolute;left:112.32px;top:1579.71px" class="cls_034"><span class="cls_034">Austin, Texas</span></div>
+<div style="position:absolute;left:112.32px;top:1621.71px" class="cls_034"><span class="cls_034">We have been fortunate that thare have been a number of advancements in women’s wellness over the past</span></div>
+<div style="position:absolute;left:112.32px;top:1642.71px" class="cls_034"><span class="cls_034">several years. Part of the credit goes to a particular brand of research maverick.</span></div>
+<div style="position:absolute;left:363.09px;top:1738.35px" class="cls_037"><span class="cls_037">Click here to view PDF</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:49130px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background18.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.98px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:406.04px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:633.76px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:97.23px;top:354.36px" class="cls_024"><span class="cls_024">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:112.32px;top:1552.71px" class="cls_033"><span class="cls_033">ITALIAN INSPIRED LIVING</span></div>
+<div style="position:absolute;left:112.32px;top:1579.71px" class="cls_034"><span class="cls_034">Austin, Texas</span></div>
+<div style="position:absolute;left:112.32px;top:1621.71px" class="cls_034"><span class="cls_034">Just 30 minutes from Austin and surrounded by lush rolling hills of Lakeway there’s a community where, every day,</span></div>
+<div style="position:absolute;left:112.32px;top:1642.71px" class="cls_034"><span class="cls_034">active adults are creating a beautiful life-thanks to great friendships, extrordinary amenities, lifelong learning, and</span></div>
+<div style="position:absolute;left:112.32px;top:1663.71px" class="cls_034"><span class="cls_034">exquisite piece and quiet.</span></div>
+<div style="position:absolute;left:363.09px;top:1738.35px" class="cls_037"><span class="cls_037">Click here to view PDF</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:52020px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background19.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.98px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:406.04px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:633.76px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:97.23px;top:354.36px" class="cls_024"><span class="cls_024">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:112.32px;top:1527.71px" class="cls_033"><span class="cls_033">HOUSTON AND BEYOND</span></div>
+<div style="position:absolute;left:112.32px;top:1554.71px" class="cls_034"><span class="cls_034">Houston, Texas</span></div>
+<div style="position:absolute;left:112.32px;top:1596.71px" class="cls_034"><span class="cls_034">Graet Things About Houston. The world’s largest medical center, and the world’s larget rodeo. Hundreds of haute</span></div>
+<div style="position:absolute;left:112.32px;top:1617.71px" class="cls_034"><span class="cls_034">quisine restaurants and thousands of ethnis food eateries. Houston and its surrounding metros present with countless</span></div>
+<div style="position:absolute;left:112.32px;top:1638.71px" class="cls_034"><span class="cls_034">faces, which is exactly what makes the are so great.</span></div>
+<div style="position:absolute;left:363.09px;top:1713.35px" class="cls_037"><span class="cls_037">Click here to view PDF</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:54910px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background20.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.98px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:406.04px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:633.76px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:97.23px;top:354.36px" class="cls_024"><span class="cls_024">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:112.32px;top:1363.31px" class="cls_033"><span class="cls_033">TRIBEZA: MODEL HOME</span></div>
+<div style="position:absolute;left:112.32px;top:1390.31px" class="cls_034"><span class="cls_034">Houston, Texas</span></div>
+<div style="position:absolute;left:112.32px;top:1432.31px" class="cls_034"><span class="cls_034">Fashion designer Geoffrey Henning paired cues from haute couture with street style when he decorated his own house.</span></div>
+<div style="position:absolute;left:363.09px;top:1548.95px" class="cls_037"><span class="cls_037">Click here to view PDF</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:57800px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background21.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.98px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:406.04px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:633.76px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:97.23px;top:354.36px" class="cls_024"><span class="cls_024">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:112.32px;top:1150.91px" class="cls_033"><span class="cls_033">WALK WITH DINOSAURS AND MINGLE WITH</span></div>
+<div style="position:absolute;left:112.32px;top:1171.92px" class="cls_033"><span class="cls_033">MAMMOTHS IN PREHISTORIC TEXAS</span></div>
+<div style="position:absolute;left:112.32px;top:1198.91px" class="cls_034"><span class="cls_034">Austin, Texas</span></div>
+<div style="position:absolute;left:112.32px;top:1240.91px" class="cls_034"><span class="cls_034">If you’ve traveled to your share of historic sites, like a 19</span><span class="cls_039"><sup>th</sup></span><span class="cls_034">-century battleground or a predidential birthplace, why not</span></div>
+<div style="position:absolute;left:112.31px;top:1261.91px" class="cls_034"><span class="cls_034">time-travel to the “way, way back” along the prehistoric Texas Trail. Visit excavations that are millions of years old and</span></div>
+<div style="position:absolute;left:112.31px;top:1282.91px" class="cls_034"><span class="cls_034">connect wityh your inner caveperson.</span></div>
+<div style="position:absolute;left:363.09px;top:1336.55px" class="cls_037"><span class="cls_037">Click here to view PDF</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:60690px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background22.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.98px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:406.04px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:633.76px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:97.23px;top:354.36px" class="cls_024"><span class="cls_024">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:112.32px;top:1527.71px" class="cls_033"><span class="cls_033">RICE UNIVERSITY</span></div>
+<div style="position:absolute;left:112.32px;top:1554.71px" class="cls_034"><span class="cls_034">Houston, Texas</span></div>
+<div style="position:absolute;left:112.32px;top:1596.71px" class="cls_034"><span class="cls_034">Edgar Odell Lovett President of Rice Institute when it opened in 1912, said about education, “It’s a matter of life, the</span></div>
+<div style="position:absolute;left:112.32px;top:1617.71px" class="cls_034"><span class="cls_034">whole span of life.”</span></div>
+<div style="position:absolute;left:363.09px;top:1713.35px" class="cls_037"><span class="cls_037">Click here to view PDF</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:63580px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background23.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.98px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:406.04px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:633.76px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:97.23px;top:354.36px" class="cls_024"><span class="cls_024">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:112.32px;top:1527.71px" class="cls_033"><span class="cls_033">THE UNIVERSITY OF TEXAS AT EL PASO</span></div>
+<div style="position:absolute;left:112.32px;top:1554.71px" class="cls_034"><span class="cls_034">Austin, Texas</span></div>
+<div style="position:absolute;left:112.32px;top:1596.71px" class="cls_034"><span class="cls_034">On the eve of its Centennial Celebration in 2014, The University of Texas at El Paso has become one of the nations’ top</span></div>
+<div style="position:absolute;left:112.32px;top:1617.71px" class="cls_034"><span class="cls_034">ranked universities.</span></div>
+<div style="position:absolute;left:363.09px;top:1713.35px" class="cls_037"><span class="cls_037">Click here to view PDF</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:66470px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background24.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:180.98px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:406.04px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:633.76px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:97.23px;top:354.36px" class="cls_024"><span class="cls_024">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:112.32px;top:1522.71px" class="cls_033"><span class="cls_033">GALVESTON ISLAND AND BAY AREA HOUSTON</span></div>
+<div style="position:absolute;left:112.32px;top:1549.71px" class="cls_034"><span class="cls_034">Austin, Texas</span></div>
+<div style="position:absolute;left:363.09px;top:1713.35px" class="cls_037"><span class="cls_037">Click here to view PDF</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-432px;top:69360px;width:864px;height:2880px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_id_ecdbf5c0-e76a-11eb-a980-0cc47a792c0a_files/background25.jpg" width=864 height=2880></div>
+<div style="position:absolute;left:209.20px;top:12.13px" class="cls_004"><span class="cls_004">Fresh Ink Enterprises</span></div>
+<div style="position:absolute;left:318.48px;top:80.07px" class="cls_005"><span class="cls_005">Suzanne Stavinoha</span></div>
+<div style="position:absolute;left:281.30px;top:108.07px" class="cls_006"><span class="cls_006">Freelance Writer in Houston, Texas</span></div>
+<div style="position:absolute;left:256.78px;top:132.07px" class="cls_006"><span class="cls_006">SuzanneStav@gmail.com </span><span class="cls_007"> </span><span class="cls_009">•</span><span class="cls_008"> </span><span class="cls_009"> </span><span class="cls_010">713.203.7738</span></div>
+<div style="position:absolute;left:185.61px;top:188.11px" class="cls_002"><span class="cls_002">MARKETING PORTFOLIO</span></div>
+<div style="position:absolute;left:410.66px;top:188.11px" class="cls_002"><span class="cls_002">FEATURES PORTFOLIO</span></div>
+<div style="position:absolute;left:625.28px;top:188.11px" class="cls_002"><span class="cls_002">ABOUT</span></div>
+<div style="position:absolute;left:328.83px;top:383.16px" class="cls_024"><span class="cls_024">ABOUT</span></div>
+<div style="position:absolute;left:439.92px;top:708.09px" class="cls_041"><span class="cls_041">SUZANNE STAVINOHA</span></div>
+<div style="position:absolute;left:420.46px;top:729.09px" class="cls_042"><span class="cls_042">Let’s discuss your writing needs.</span></div>
+<div style="position:absolute;left:374.44px;top:747.09px" class="cls_042"><span class="cls_042">Email or call and we can set up a time to talk</span></div>
+<div style="position:absolute;left:404.83px;top:803.55px" class="cls_043"><span class="cls_043">Suzanne@SuzanneWroteThat.com</span></div>
+<div style="position:absolute;left:479.96px;top:830.54px" class="cls_042"><span class="cls_042">713-203-7738 cell</span></div>
+<div style="position:absolute;left:472.41px;top:857.53px" class="cls_042"><span class="cls_042">832-925-8510 office</span></div>
+<div style="position:absolute;left:358.51px;top:923.93px" class="cls_044"><span class="cls_044">Visit my Italian travel blog,</span><span class="cls_045"> </span><span class="cls_047">Addicted to Italy.</span></div>
+<div style="position:absolute;left:350.55px;top:1058.73px" class="cls_041"><span class="cls_041">MY EXPERIENCE</span></div>
+<div style="position:absolute;left:170.74px;top:1095.66px" class="cls_042"><span class="cls_042">As I’ve done with the following businesses, I can work directly with a</span></div>
+<div style="position:absolute;left:182.56px;top:1114.86px" class="cls_042"><span class="cls_042">client or through an existing advertising agencyor marketing firm.</span></div>
+</div>
+
+</body>
+</html>
