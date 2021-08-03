@@ -316,7 +316,10 @@ tradegothicnextltprobd
 }
 
 
-  
+.energy_center_contents p{
+    line-height: 30px;
+    text-align: justify;
+}  
 
 
 
