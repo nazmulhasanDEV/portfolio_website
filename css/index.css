@@ -83,7 +83,7 @@ body {
     color: #9EA71B;
     font-family: 'americalTypeWriter';
     font-weight: 550;
-    font-size: 3.5vw;
+    font-size: 48px;
     border-bottom: 1px solid #9EA71B;
     text-indent: 5px;
     letter-spacing: 1px;
@@ -92,7 +92,6 @@ body {
 .header_owner_name {
     font-family: HelveticaNeueLTComBd;
     color: #BBBF61;
-    /* font-weight: 900; */
 }
 
 
@@ -304,27 +303,6 @@ tradegothicnextltprobd
 
 /* cover image section ends */
 
-
-/* svg (question) sec about service */
-
-
-.question_sec #eYNm9eHt5BU1 {
-    position: relative;
-    margin-top: -13%;
-}
-
-.question_sec #eYNm9eHt5BU12, #eYNm9eHt5BU13, #eYNm9eHt5BU14 {
-    font-family: adobFant22;
-}
-
-
-#eYNm9eHt5BU22, #eYNm9eHt5BU23, #eYNm9eHt5BU24 {
-    /* font-family: HelveticaNeueLTComBd; */
-    font-family: tradegothicnextltprobd;
-    letter-spacing: 0.5px;
-}
-
-
 /* 
 HelveticaNeueLTComBlkHelveticaNeueLTComHv*
 HelveticaNeueLTComRoman*
@@ -340,19 +318,42 @@ MontserratAlternatesMedium
 HelveticaNeueLTComBd***
 tradegothicnextltprobd
 */
-.question_sec #eYNm9eHt5BU16, #eYNm9eHt5BU17, #eYNm9eHt5BU18, #eYNm9eHt5BU19, #eYNm9eHt5BU20 {
-    font-family: MontserratAlternatesMedium;
+.sevice_description_tree {
+    background-color: none;
 }
-
-.let_me_help svg{
-    width: 100%;
-    background-color: #9ebe2f;
+.sevice_description_tree img{
     position: relative;
-    margin-bottom: 350px;
-}
-
-.test_svg {
-    box-shadow: 20px 20px 20px 10px blue;
+    margin-top: -12%;
 }
 
 /* question sec about service ends */
+
+/* footer starts */
+.footer_sec .social_media_icons {
+    width: 100%;
+    height: auto;
+    background-color: #ABC01D;
+    padding: 30px;
+}
+
+.footer_sec .social_media_icons span {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    font-size: 38px;
+    background-color: #FFFFFF;
+    color: #ABC01D;
+    font-weight: bold;
+    margin-left: 20px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.4;
+}
+
+.footer_sec .social_media_icons .fb_icon {
+    font-size: 40px;
+}
+
+.footer_sec .social_media_icons span:hover {
+    opacity: 0.8;
+}

@@ -257,8 +257,8 @@ body {
 /* HelveticaNeueLTStdRomanCopyCopy0 */
 
 .home_experience_details {
-    padding-top: 16%;
-    padding-bottom: 12%;
+    padding-top: 20%;
+    padding-bottom: 10%;
     margin: 0 auto;
 }
 
@@ -278,8 +278,8 @@ body {
 .energy_center_title {
     text-transform: uppercase;
     font-family: tradegothicnextltprobd;
-    /* color: #ABBE1D; */
     color: #ABBE1D;
+    line-height: 25px;
 }
 
 .energy_center_region_name{
