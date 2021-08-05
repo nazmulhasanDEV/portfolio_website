@@ -1,0 +1,233 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HarlowSolid
+FamilyName:Harlow Solid Italic
+StyleName:Italic
+FullName:Harlow Solid Italic
+MenuName:Harlow Solid Italic
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\dpiland\OneDrive - CBRE, Inc\Desktop\DP Forms\Suzanne Website\Stav Web Layouts Folder\Suzanne Website Final Files\Document fonts\HARLOWSI.TTF
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:56596
+FileModTime:1583274344
+WeightClass:400
+WidthClass:6
+AngleClass:0
+NameArray:0,Mac,4,Harlow Solid Italic
+NameArray:0,Win,1,Harlow Solid Italic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HelveticaNeueLTCom-Bd
+FamilyName:Helvetica Neue LT Com
+StyleName:75 Bold
+FullName:Helvetica Neue LT Com 75 Bold
+MenuName:HelveticaNeueLT Com 55 Roman
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\dpiland\OneDrive - CBRE, Inc\Desktop\DP Forms\Suzanne Website\Stav Web Layouts Folder\Suzanne Website Final Files\Document fonts\HelveticaNeueLTCom-Bd.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:130412
+FileModTime:1164189664
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Helvetica Neue LT Com 75 Bd
+NameArray:0,Mac,4,Helvetica Neue LT Com 75 Bold
+NameArray:0,Win,1,HelveticaNeueLT Com 55 Roman
+NameArray:0,Win,16,Helvetica Neue LT Com
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HelveticaNeueLTCom-Blk
+FamilyName:Helvetica Neue LT Com
+StyleName:95 Black
+FullName:Helvetica Neue LT Com 95 Black
+MenuName:HelveticaNeueLT Com 95 Blk
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\dpiland\OneDrive - CBRE, Inc\Desktop\DP Forms\Suzanne Website\Stav Web Layouts Folder\Suzanne Website Final Files\Document fonts\HelveticaNeueLTCom-Blk.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:121940
+FileModTime:1164189670
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,HelveticaNeueLT Com 95 Blk
+NameArray:0,Mac,4,Helvetica Neue LT Com 95 Black
+NameArray:0,Win,1,HelveticaNeueLT Com 95 Blk
+NameArray:0,Win,16,Helvetica Neue LT Com
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HelveticaNeueLTCom-Hv
+FamilyName:Helvetica Neue LT Com
+StyleName:85 Heavy
+FullName:Helvetica Neue LT Com 85 Heavy
+MenuName:HelveticaNeueLT Com 65 Md
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\dpiland\OneDrive - CBRE, Inc\Desktop\DP Forms\Suzanne Website\Stav Web Layouts Folder\Suzanne Website Final Files\Document fonts\HelveticaNeueLTCom-Hv.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:136376
+FileModTime:1164189644
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,HelveticaNeueLT Com 85 Hv
+NameArray:0,Mac,4,Helvetica Neue LT Com 85 Heavy
+NameArray:0,Win,1,HelveticaNeueLT Com 65 Md
+NameArray:0,Win,16,Helvetica Neue LT Com
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HelveticaNeueLTCom-Roman
+FamilyName:Helvetica Neue LT Com
+StyleName:55 Roman
+FullName:Helvetica Neue LT Com 55 Roman
+MenuName:HelveticaNeueLT Com 55 Roman
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\dpiland\OneDrive - CBRE, Inc\Desktop\DP Forms\Suzanne Website\Stav Web Layouts Folder\Suzanne Website Final Files\Document fonts\HelveticaNeueLTCom-Roman.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:158372
+FileModTime:1164189646
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,HelveticaNeueLT Com 55 Roman
+NameArray:0,Mac,4,Helvetica Neue LT Com 55 Roman
+NameArray:0,Win,1,HelveticaNeueLT Com 55 Roman
+NameArray:0,Win,16,Helvetica Neue LT Com
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaNeueLTStd-Blk
+FamilyName:Helvetica Neue LT Std
+StyleName:95 Black
+FullName:Helvetica Neue LT Std 95 Black
+MenuName:HelveticaNeueLT Std Blk
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\dpiland\OneDrive - CBRE, Inc\Desktop\DP Forms\Suzanne Website\Stav Web Layouts Folder\Suzanne Website Final Files\Document fonts\HelveticaNeueLTStd-Blk.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:29700
+FileModTime:1114729780
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,HelveticaNeueLT Std Blk
+NameArray:0,Mac,4,Helvetica Neue LT Std 95 Black
+NameArray:0,Win,1,HelveticaNeueLT Std Blk
+NameArray:0,Win,16,Helvetica Neue LT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaNeueLTStd-Lt
+FamilyName:Helvetica Neue LT Std
+StyleName:45 Light
+FullName:Helvetica Neue LT Std 45 Light
+MenuName:HelveticaNeueLT Std Lt
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\dpiland\OneDrive - CBRE, Inc\Desktop\DP Forms\Suzanne Website\Stav Web Layouts Folder\Suzanne Website Final Files\Document fonts\HelveticaNeueLTStd-Lt - Copy - Copy_0.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:28120
+FileModTime:1114729782
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,HelveticaNeueLT Std Lt
+NameArray:0,Mac,4,Helvetica Neue LT Std 45 Light
+NameArray:0,Win,1,HelveticaNeueLT Std Lt
+NameArray:0,Win,16,Helvetica Neue LT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaNeueLTStd-Roman
+FamilyName:Helvetica Neue LT Std
+StyleName:55 Roman
+FullName:Helvetica Neue LT Std 55 Roman
+MenuName:HelveticaNeueLT Std
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\dpiland\OneDrive - CBRE, Inc\Desktop\DP Forms\Suzanne Website\Stav Web Layouts Folder\Suzanne Website Final Files\Document fonts\HelveticaNeueLTStd-Roman - Copy - Copy_0.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:27476
+FileModTime:1114729782
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,HelveticaNeueLT Std
+NameArray:0,Mac,4,Helvetica Neue LT Std 55 Roman
+NameArray:0,Win,1,HelveticaNeueLT Std
+NameArray:0,Win,16,Helvetica Neue LT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\dpiland\OneDrive - CBRE, Inc\Desktop\DP Forms\Suzanne Website\Stav Web Layouts Folder\Suzanne Website Final Files\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:1607964659
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+

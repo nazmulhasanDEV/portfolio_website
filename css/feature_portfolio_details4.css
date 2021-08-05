@@ -1,0 +1,368 @@
+@font-face {
+    font-family: 'adobFant22';
+    src: url(../fonts/AdobeFnt22.lst);
+}
+
+@font-face {
+    font-family: 'harlowsi';
+    src: url(../fonts/HARLOWSI.TTF);
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTComBd';
+    src: url(../fonts/HelveticaNeueLTCom-Bd.ttf);
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTComBlk';
+    src: url(../fonts/HelveticaNeueLTCom-Blk.ttf);
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTComBlkHelveticaNeueLTComHv';
+    src: url(../fonts/HelveticaNeueLTCom-Hv.ttf);
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTComRoman';
+    src: url(../fonts/HelveticaNeueLTCom-Roman.ttf);
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTComRomanHelveticaNeueLTStdBlk';
+    src: url(../fonts/HelveticaNeueLTStd-Blk.otf);
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTStdLtCopyCopy0';
+    src: url(../fonts/HelveticaNeueLTStd-Lt\ -\ Copy\ -\ Copy_0.otf);
+}
+
+@font-face {
+    font-family: 'helvericaNeueltstdlt';
+    src: url(../fonts/HelveticaNeueLTStd-It.otf);
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTStdRomanCopyCopy0';
+    src: url(../fonts/HelveticaNeueLTStd-Roman\ -\ Copy\ -\ Copy_0.otf);
+}
+
+@font-face {
+    font-family: 'MinionProRegular';
+    src: url(../fonts/MinionPro-Regular.otf);
+}
+
+@font-face {
+    font-family: 'americalTypeWriter';
+    src: url(../fonts/itc-american-typewriter-medium.otf);
+}
+
+@font-face {
+    font-family: "MontserratAlternatesMedium";
+    src: url(../fonts/MontserratAlternates-Medium.ttf);
+}
+
+@font-face {
+    font-family: "tradegothicnextltprobd";
+    src: url(../fonts/tradegothicnextltpro-bd.woff.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #FFFFFF; */
+}
+
+/* header starts */
+.header-title h1{
+    display: inline-block;
+    padding: 15px 0px 10px 0px;
+    text-transform: capitalize;
+    color: #9EA71B;
+    font-family: 'americalTypeWriter';
+    font-weight: 550;
+    font-size: 42px;
+    border-bottom: 1px solid #9EA71B;
+    text-indent: 5px;
+    letter-spacing: 1px;
+}
+
+.header_owner_name {
+    font-family: HelveticaNeueLTComBd;
+    color: #BBBF61;
+    /* font-weight: 900; */
+}
+
+
+.header-title .address {
+    position: relative;
+    top: -5px;
+    line-height: 26px;
+    font-family: HelveticaNeueLTComRoman;
+    color: #727272;
+}
+
+
+.header-title h3 {
+    line-height: 25px;
+}
+.header-title .gmail {
+    position: relative;
+    top: -5px;
+    font-family: HelveticaNeueLTComRoman;
+    color: #727272;
+}
+
+.header-title .spot_dot {
+    font-size: 35px;
+    color: #ABBE1D;
+}
+
+/* header ends */
+
+
+/* cover image section starts */
+.nav_nd_home_cover_img {
+    background-image: url('../images/Stav_Website_Home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+
+  
+.nav {
+    width: 100%;
+    height: 40px;
+    background-color: #4d4d4d;
+    position: absolute;
+    z-index: 200;
+    background: #ABC01D;
+    left: 0;
+  }
+  
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 17px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+  .nav > .nav-links > a {
+    font-family: HelveticaNeueLTComRoman;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 10px 7px 10px;
+    text-decoration: none;
+    color: #efefef;
+    text-transform: uppercase;
+    transition: .4s;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: #F6A113;
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:600px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 10px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      /* background-color: rgba(0, 0, 0, 0.3); */
+      cursor: pointer;
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 40px;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+
+    .nav > #nav-check:checked ~ .nav-links {
+      /* height: calc(100vh - 50px); */
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      height: 150px;
+      overflow-y: auto;
+    }
+  }
+
+
+  /* side streatch starts */
+  .sider_stretch {
+      position: relative;
+      width: 20px;
+      height: 150px;
+      background-color: #ABC01D;
+      left: 99.7%;
+  }
+
+  .sider_stretch2 {
+    position: absolute;
+    width: 20px;
+    height: 180px;
+    background-color: #ABC01D;
+    left: 0%;
+    top: 0;
+}
+  /* side streatch ends */
+
+ 
+/* home experience section starts */
+
+/* HelveticaNeueLTStdRomanCopyCopy0 */
+
+.home_experience_details {
+    padding-top: 20%;
+    padding-bottom: 10%;
+    margin: 0 auto;
+}
+
+.experice_title {
+    font-family: HelveticaNeueLTComRoman;
+    text-transform: uppercase;
+    color: #9EA71B;
+    line-height: 70px;
+    font-size: 70px;
+}
+
+
+/* home experience section ends */
+
+/* cover image section ends */
+
+.energy_center_title {
+    text-transform: uppercase;
+    font-family: tradegothicnextltprobd;
+    /* color: #ABBE1D; */
+    color: #ABBE1D;
+}
+
+.energy_center_region_name{
+    font-family: tradegothicnextltprobd;
+}
+
+
+ /* 
+HelveticaNeueLTComBlkHelveticaNeueLTComHv*
+HelveticaNeueLTComRoman*
+HelveticaNeueLTComRomanHelveticaNeueLTStdBlk*
+HelveticaNeueLTStdLtCopyCopy0*
+HelveticaNeueLTStdRomanCopyCopy0*
+MinionProRegular*
+americalTypeWriter*
+harlowsi*
+adobFant22*
+HelveticaNeueLTComBlk*
+MontserratAlternatesMedium
+HelveticaNeueLTComBd***
+tradegothicnextltprobd
+*/
+.energy_center_list{
+    font-family: tradegothicnextltprobd;
+    list-style: none;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.energy_center_contents {
+    position: relative;
+    font-family: tradegothicnextltprobd;
+
+}
+
+
+.energy_center_contents p{
+    line-height: 30px;
+    text-align: justify;
+}  
+
+
+
+.btn_to_view_pdf {
+    border: none;
+    outline: none;
+    background-color: #ABBE1D;
+    transition: .3s;
+}
+
+.btn_to_view_pdf:hover {
+    opacity: 0.6;
+}
+
+.btn_to_view_pdf a {
+    text-decoration: none;
+    color: white;
+    font-family: tradegothicnextltprobd;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-size: 20px;
+}
+
+.btn_to_view_pdf a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* footer starts */
+.footer_sec .linked_in {
+    width: 100%;
+    height: auto;
+    background-color: #ABC01D;
+    padding: 30px;
+}
+
+.footer_sec .linked_in span {
+    border-radius: 12px;
+    padding: 0px 12px 0px 12px;
+    font-size: 35px;
+    background-color: #FFFFFF;
+    color: #ABC01D;
+    font-weight: bold;
+}
