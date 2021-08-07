@@ -335,6 +335,13 @@ tradegothicnextltprobd
   color: white;
 }
 
+
+/* hiding audios */
+#radio_spot_one, #radio_spot_two, #radio_spot_three {
+  display: none;
+}
+
+
 .energy_center_title {
     text-transform: uppercase;
     font-family: tradegothicnextltprobd;
